@@ -5,6 +5,8 @@
  */
 package co.edu.udea.dao;
 
+import co.edu.udea.model.Vehicle;
+import java.util.List;
 import javax.ejb.Local;
 
 /**
@@ -20,6 +22,8 @@ public interface VehicleDaoLocal {
 
     void remove(String licensePlate);
 
-    Student get(String licensePlate);
+    Vehicle get(String licensePlate);
+
+    List<Vehicle> getAll();
     
 }

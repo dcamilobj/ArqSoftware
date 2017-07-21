@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author camilo
+ * @author Duban Camilo Bedoya - dcamilo@gmail.com
  */
 public class ClientServlet extends HttpServlet {
 
